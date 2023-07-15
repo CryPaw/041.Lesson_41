@@ -1,0 +1,53 @@
+.container {
+  width: 1200px;
+  position: relative;
+  margin: 0 auto;
+  text-align:  center;
+  border: 16px solid purple;
+  padding: 40px 20px;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: .5s all ease;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  -ms-transition: .5s all ease;
+  -o-transition: .5s all ease;
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.voting {
+  display: inline-block;
+}
+
+.сount_area ul {
+padding: 0 0 0 0px;
+list-style: none;
+
+}
+
+.countar > li {
+  display: inline-block;
+  width: 85.43px;
+  color: white;  
+  background-color: #4CAF50;
+  text-align: center;
+  font-size: 19.3px;
+}
